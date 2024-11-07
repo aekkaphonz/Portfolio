@@ -54,7 +54,7 @@ const Header = () => {
                          ?"nav__link active-link"
                          :"nav__link"}>
                             <i className="uil uil-briefcase-alt nav__icon"></i>
-                            Work
+                            Works
                         </a>
                     </li>
 
