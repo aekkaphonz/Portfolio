@@ -27,7 +27,7 @@
 
 .testimonial__name{
     font-size: var(--normal-font-size);
-    font-weight: var(--font-meduium);
+    font-weight: var(--font-semi-bold);
     margin-bottom: var(--mb-0-25);
 }
 

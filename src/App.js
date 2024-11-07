@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Header from './components/header/Header.jsx';
 import Home from './components/home/Home.jsx';
@@ -11,6 +11,17 @@ import Contact from './components/contact/Contact.jsx';
 import Footer from './components/footer/Footer.jsx';
 import Scrollup from './components/scrollup/Scrollup.jsx';
 const App =() =>{
+  useEffect(()=>{
+    document.title = `Portfolio`
+  })
+
+  useEffect(() => {
+    const video = document.querySelector('.about__img');
+    if (video) {
+      video.play().catch((error) => {
+      });
+    }
+  }, []);
   return(
     <>
     <Header/>
