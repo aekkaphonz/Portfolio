@@ -9,6 +9,16 @@
     margin-bottom: var(--mb-3);
 }
 
+.testimonial__card a {
+    display: block; /* ทำให้ <a> เป็นบล็อคเพื่อให้ขยายได้เต็ม */
+    text-decoration: none; /* เอาเส้นขีดใต้ของ <a> ออก */
+    color: inherit; /* ให้ตัวอักษรใน <a> มรสีเหมือนกับองค์ประกอบที่อยู่ข้างใน */
+}
+
+.testimonial__card a:hover {
+    color: var(--title-color); 
+}
+
 .testimonial__img{
     width: 60px;
     border-radius: 3rem;
@@ -22,7 +32,7 @@
 }
 
 .testimonial__description{
-    font-size: var(--small-font-size);
+    font-size: var(--smaller-font-size);
 }
 
 /* Swiper class */

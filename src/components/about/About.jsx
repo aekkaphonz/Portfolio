@@ -1,7 +1,6 @@
 import React from 'react';
 import "./about.css"
-import AboutImg from "../../assets/งง.jpg"
-import CV from "../../assets/Resume.pdf"
+import AboutImg from "../../assets/me.jpg"
 import Info from './Info';
 
 const About = () => {
@@ -22,7 +21,7 @@ const About = () => {
                   I am excited to leverage my creativity and skills to make meaningful contributions to projects while continuously growing as a developer.
                 </p>
 
-                <a  href="https://drive.google.com/file/d/1QEUcqbl1CispJYel_OYNsUdRFFZBQukR/view?usp=drive_link" 
+                <a  href="https://drive.google.com/file/d/1KQEUsiHegcYsW9kflzvPofYRQJAlxGUd/view?usp=drive_link" 
                 className="button butoon--flex"
                 target="_blank" 
                 rel="noopener noreferrer">

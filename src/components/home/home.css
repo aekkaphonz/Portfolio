@@ -1,8 +1,6 @@
 .home__container{
     row-gap: 7rem;
 }
-
-
 .home__content{
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
@@ -64,7 +62,7 @@
     margin-bottom: var(--mb-3);
 }
 .home__img{
-    background: url(../../assets//งง.jpg);
+    background: url(../../assets//me.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
