@@ -130,18 +130,18 @@
   }
   @media screen and (max-width: 576px) {
     .contact__container {
-        column-gap: 1.5rem; /* Reduces column gap for smaller screens */
+        column-gap: 1.5rem; 
     }
     .contact__info {
-        grid-template-columns: 1fr; /* Adjusts the info section to span the full width */
+        grid-template-columns: 1fr; 
         justify-content: center;
-        row-gap: 2rem; /* Adds row gap for better spacing */
-        padding: 1rem; /* Optional padding for improved alignment */
+        row-gap: 2rem; 
+        padding: 1rem; 
     }
     .contact__form {
         width: 100%;
         margin: 0 auto;
-        padding: 1rem; /* Adds padding for better spacing on smaller screens */
+        padding: 1rem;
     }
 }
   /* small */
