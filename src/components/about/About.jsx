@@ -10,7 +10,7 @@ const About = () => {
         <span className="section__subtitle">My introduction</span>
 
         <div className="about__container container grid">
-        <video src={AboutVideo} className="about__img" autoplay muted loop />
+        <video src={AboutVideo} className="about__img" autoplay muted loop playsInline />
 
             <div className="about__data">
                 <Info/>
