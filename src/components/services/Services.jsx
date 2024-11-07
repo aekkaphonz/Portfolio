@@ -12,7 +12,7 @@ const Services = () => {
 
   return (
     <section className="services section" id="services">
-         <h2 className="section__title">Work</h2>
+         <h2 className="section__title">Works</h2>
          <span className="section__subtitle">I'm looking for a position</span>
 
          <div className="services__container container grid">
