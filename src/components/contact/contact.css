@@ -110,9 +110,9 @@
 /* Breakpoints */
 /* large */
 @media screen and (max-width: 992px) {
-    .contact__container{
-        column-gap: 3rem;
-    }
+   .contact__container{
+    column-gap: 3rem;
+   }
   }
   /* medium */
   @media screen and (max-width: 768px) {
@@ -120,23 +120,30 @@
         grid-template-columns: 1fr;
         row-gap: 3rem;
     }
-
     .contact__info{
         justify-content: center;
     }
     .contact__form{
         margin: 0 auto;
     }
+   
   }
   @media screen and (max-width: 576px) {
-    .contact__info{
-        grid-template-columns: 1fr;
-        
+    .contact__container {
+        column-gap: 1.5rem; /* Reduces column gap for smaller screens */
     }
-    .contact__form{
+    .contact__info {
+        grid-template-columns: 1fr; /* Adjusts the info section to span the full width */
+        justify-content: center;
+        row-gap: 2rem; /* Adds row gap for better spacing */
+        padding: 1rem; /* Optional padding for improved alignment */
+    }
+    .contact__form {
         width: 100%;
+        margin: 0 auto;
+        padding: 1rem; /* Adds padding for better spacing on smaller screens */
     }
-  }
+}
   /* small */
   @media screen and (max-width: 350px) {
   }
