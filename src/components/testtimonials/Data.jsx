@@ -1,6 +1,6 @@
 import Image1 from "../../assets/html.jpg"
-import Image2 from "../../assets/flutter.png"
-import Image3 from "../../assets/react.png"
+import Image2 from "../../assets/Silver.png"
+import Image3 from "../../assets/react.jpg"
 
 export const Data = [
    
